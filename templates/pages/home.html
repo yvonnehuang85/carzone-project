@@ -131,7 +131,7 @@
                 <div class="slick-slide-item">
                     <div class="car-box-3">
                         <div class="car-thumbnail">
-                            <a href="car-details.html" class="car-img">
+                            <a href="{%  url 'car_detail' car.id %}" class="car-img">
                                 <div class="tag-2">Featured</div>
                                 <div class="price-box">
                                     <span>${{car.price | intcomma}}</span>
@@ -181,7 +181,7 @@
                                 <a href="{% url 'car_detail' car.id %}">{{ car.car_title }}</a>
                             </h1>
                             <div class="location">
-                                <a href="car-details.html">
+                                <a href="{%  url 'car_detail' car.id %}">
                                     <i class="flaticon-pin"></i>{{ car.state }}, {{ car.city }}
                                 </a>
                             </div>
@@ -285,7 +285,7 @@
                             <a href="{% url 'car_detail' car.id %}">{{ car.car_title }}</a>
                         </h1>
                         <div class="location">
-                            <a href="car-details.html">
+                            <a href="{%  url 'car_detail' car.id %}">
                                 <i class="flaticon-pin"></i>{{ car.state }}, {{ car.city }},
                             </a>
                         </div>
@@ -362,7 +362,14 @@
 <!-- Intro section end -->
 
 
-
+<!-- Full Page Search -->
+<div id="full-page-search">
+    <button type="button" class="close">×</button>
+    <form action="{% url 'search' %}" class="search-header">
+        <input type="search" value="" placeholder="type keyword(s) here. Eg: audi, benz etc" name="keyword" />
+        <button type="submit" class="btn btn-sm button-theme">Search</button>
+    </form>
+</div>
 
 <!-- Car Overview Modal -->
 <div class="car-model-2">
