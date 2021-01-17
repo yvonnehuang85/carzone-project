@@ -163,5 +163,4 @@ EMAIL_HOST_PASSWORD = 'elsaevonne170'
 EMAIL_USE_TLS = True
 
 # whitenoise: heroku use it to handle static files
-STATICFILES_STORAGE = "whitenoise.storage.CompressManifestStaticFilesStorage"
-
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
