@@ -24,7 +24,7 @@ SECRET_KEY = '&%)osf08%!-#%$m_f5xyn3w2++zzzv(36%1j1lbpii9bl2_)uh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # if True : user can see the error package : risky
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['demo-django-0116.herokuapp.com/', 'carzoneapp.co', 'www.carzoneapp.co']
 
