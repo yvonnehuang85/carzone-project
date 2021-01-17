@@ -164,3 +164,6 @@ EMAIL_USE_TLS = True
 
 # whitenoise: heroku use it to handle static files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+import django_heroku
+django_heroku.settings(locals())
