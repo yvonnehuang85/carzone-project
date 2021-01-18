@@ -54,11 +54,11 @@ Dynamically store data from PostgreSQL database
       * $ django-admin startproject carzone
       
    - Django App <br>
-      step 1) Pages:
-         - $ python3 manage.py startapp pages
-	      - Add app in instant app of setting
-	      - add urls.py in pages
-         - $ python3 manage.py startapp accounts <br>
+      step 1) Pages: <br>
+         	- $ python3 manage.py startapp pages <br>
+	      	- Add app in instant app of setting <br>
+	      	- add urls.py in pages <br>
+         	- $ python3 manage.py startapp accounts <br>
       step 2) Go to Setting file <br>
       step 3) Create url.py <br>
       step 4) Create function in view.py <br>
