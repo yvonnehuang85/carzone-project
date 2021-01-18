@@ -1,9 +1,37 @@
-# Used Car Selling Website --- django project 
+# Real-life Used Car Selling Website --- django project 
 
 The basic scenario of this project is to make a website for a car business owner who wants to list his car in his website and allow the user to come to the site and browser through all of his latest cars and feature cars, search and filter the cars by model or price and make some inquiries about his cars that are out for the sale. <br>
 
 ## Link for Heroku App
 Click here! -> [Heroku App](https://demo-django-0116.herokuapp.com/)
+
+## Solid Features
+1. Search Function
+	- search cars by name, model, location, year, price
+2. Pagination
+	- list any numbers of car you want in a single page
+3. Send Message
+	- For customers, they can send a message to request for more information to a certian car they interested in
+	- For the same car, one login account can send only one message
+4. Login 
+	- can login by facebook and google
+5. Register
+	- need to be different username with other members
+	- email account need to include @
+	- Confirm password needs to be same as password
+6. Send Email
+	- when users request for more information
+	- or use the "Contact Us" service in the website
+	- Admin will recieve users' message by receiving the email
+7. Messages
+	- successful or unsuccessful login will both pop out messages to inform users
+8. Admin	
+	- maintain users' personal information
+	- put information of cars (featured/ name/ city/ color/ vin/ Used/ .......)
+	- authenticated site 
+
+## Database
+PostgreSQL
 
 ## Basic Idea & Steps
 1. Create a website 
