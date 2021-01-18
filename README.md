@@ -31,7 +31,7 @@ Click here! -> [Heroku App](https://demo-django-0116.herokuapp.com/)
 	- authenticated site 
 
 ## Database
-PostgreSQL
+Dynamically store data from PostgreSQL database
 
 ## Basic Idea & Steps
 1. Create a website 
