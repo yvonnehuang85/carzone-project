@@ -5,7 +5,7 @@ The basic scenario of this project is to make a website for a car business owner
 ## Link for Heroku App
 Click here! -> [Heroku App](https://demo-django-0116.herokuapp.com/)
 
-### Basic Idea & Steps
+## Basic Idea & Steps
 1. Create a website 
    - For car business owners who want to list their cars
    - For customers who want a user-friendly website
@@ -42,7 +42,7 @@ Click here! -> [Heroku App](https://demo-django-0116.herokuapp.com/)
 4. Make css / js work 
    - $ python3 manage.py collectstatic
       
-### Deployed to Heroku
+## Deployed to Heroku
 1. Create Procfile and runtime.txt
 2. install Heroku (macOS) and prepared
    - $ brew tap heroku/brew && brew install heroku
