@@ -8,7 +8,7 @@ The basic scenario of this project is to make a website for a car business owner
    - For customers who want a user-friendly website
    
 2. Details of building the project
-   - Virtual Environment
+   - Virtual Environment <br>
       I want my project in isolated environment.
       * $ python -m venv env
       * $ source ./env/bin/activate
@@ -56,8 +56,7 @@ The basic scenario of this project is to make a website for a car business owner
    - git commit -m "message"
    - git push
  5. Create Heroku App
-   - $ heroku create name
-   - $ git push origin main
-   - $ heroku open
-   - $ heroku run python manage.py collectstatic 
-
+ 	- $ heroku create name
+   	- $ git push origin main
+   	- $ heroku open
+   	- $ heroku run python manage.py collectstatic 
