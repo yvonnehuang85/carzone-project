@@ -1,4 +1,4 @@
-# Real-life Used Car Selling Website --- django project 
+# Used Car Selling Website --- django project 
 
 The basic scenario of this project is to make a website for a car business owner who wants to list his car in his website and allow the user to come to the site and browser through all of his latest cars and feature cars, search and filter the cars by model or price and make some inquiries about his cars that are out for the sale. <br>
 
