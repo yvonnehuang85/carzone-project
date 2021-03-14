@@ -56,11 +56,18 @@ Dynamically store data from PostgreSQL database
 3. Django App <br>
    - $ python3 manage.py startapp {app_name} <br>
    - Add app(created_app/app.py) in instant app of setting(project) <br>
-	* E.g. 'pages.apps.PagesConfig', <br>	
+	```python 
+	'pages.apps.PagesConfig', 
+	```	
    - Manually create urls.py in created_app <br>
-	* E.g. path('', views.home, name='home'), <br>
+   	```python
+	path('', views.home, name='home'),
+	```
    - Create a function in created_app/views.py to render a html page <br>
-        * E.g. def home(request): return render(request, 'pages/home.html', data) <br>
+       ```python
+       def home(request): 
+       	  return render(request, 'pages/home.html', data)
+	```
    - Create the exact html page under template folder <br>
       
 4. Models
