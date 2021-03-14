@@ -61,15 +61,13 @@ Dynamically store data from PostgreSQL database
 	```	
    - Manually create urls.py in created_app <br>
    	```python
-	path('', views.home, name='home'),
-	```
+	  path('', views.home, name='home'), 
+	  ```
    - Create a function in created_app/views.py to render a html page <br>
-       ```python
-       def home(request): 
-       	  return render(request, 'pages/home.html', data)
-	```
-   - Create the exact html page under template folder <br>
-      
+	 ```python
+     def home(request): 
+     	return render(request, 'pages/home.html', data) 
+ 	```
 4. Models
    - use to store data in database
 
