@@ -68,7 +68,9 @@ Dynamically store data from PostgreSQL database
      def home(request): 
      	return render(request, 'pages/home.html', data) 
  	```
-   - create exact .html under template folders	
+   - create exact .html under templates folders	
+  	 - you should create templates folder under your porject, it is the place you put all the html files in		
+   
 4. Models
    - use to store data in database
 
