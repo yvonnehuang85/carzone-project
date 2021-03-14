@@ -69,8 +69,9 @@ Dynamically store data from PostgreSQL database
      	return render(request, 'pages/home.html', data) 
  	```
    - create exact .html under templates folders	
-  	 - you should create templates folder under your porject, it is the place you put all the html files in		
-   - announce it project/setting.py
+  	 - you should create templates folder under your porject, it is the place you put all the html files in <br>
+  	 
+   - announce templates it project/setting.py
    ```python
    	TEMPLATES = [
     {
