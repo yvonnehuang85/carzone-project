@@ -53,20 +53,20 @@ Dynamically store data from PostgreSQL database
       * $ pip install --upgrade pip
       * $ django-admin startproject carzone
       
-   - Django App <br>
-     	step 1) $ python3 manage.py startapp {app_name} <br>
-	step 2) Add app(created_app/app.py) in instant app of setting(project) <br>
-		-  E.g. 'pages.apps.PagesConfig', <br>	
-	step 3) Manually create urls.py in created_app <br>
-	      	-  E.g. path('', views.home, name='home'), <br>
-  	step 4) Create a function in created_app/views.py to render a html page <br>
-         	- E.g. def home(request): return render(request, 'pages/home.html', data)<br>
-     	step 5) Create the exact html page under template folder <br>
+3. Django App <br>
+   - $ python3 manage.py startapp {app_name} <br>
+   - Add app(created_app/app.py) in instant app of setting(project) <br>
+	* E.g. 'pages.apps.PagesConfig', <br>	
+   - Manually create urls.py in created_app <br>
+	* E.g. path('', views.home, name='home'), <br>
+   - Create a function in created_app/views.py to render a html page <br>
+        * E.g. def home(request): return render(request, 'pages/home.html', data) <br>
+   - Create the exact html page under template folder <br>
       
-3. Models
+4. Models
    - use to store data in database
 
-4. Make css / js work 
+5. Make css / js work 
    - $ python3 manage.py collectstatic
       
 ## Deployed to Heroku
